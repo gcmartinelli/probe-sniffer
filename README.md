@@ -12,7 +12,7 @@ I.e. What WIFI networks are devices around you looking for?
 
 ### Instalation
 
-`pip -r requirements.txt`
+`pip install -r requirements.txt`
 
 ### Usage
 
