@@ -75,7 +75,7 @@ if __name__ == "__main__":
         thread.start()
 
         probe_reg = []
-        sniff(iface=iface, prn=find_probe)
+        sniff(iface=iface, prn=find_probe, store=0)
 
     except Exception as e:
         print(f"[*] Error: {e}")
