@@ -16,6 +16,8 @@ I.e. What WIFI networks are devices around you looking for?
 
 ### Usage
 
+The network card used needs to be in MONITOR mode.
+
 `python listen.py <interface_name> [filename]`
 
 `interface_name` can be found using the `iwconfig` command on Linux
